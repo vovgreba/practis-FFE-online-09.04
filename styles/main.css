@@ -110,12 +110,15 @@ body {
   position: fixed;
   top: 12px;
   right: 3%;
-  
 }
 .search-svg {
   width: 32px;
   height: 32px;
   fill: white;
+  
+}
+.link-svg {
+  fill: #afafaf;
 }
 
 /* main */
@@ -408,9 +411,11 @@ body {
 
 }
 .flex-parent_attention .hey {
+  display: flex;
   border-radius: 8px;
   background-color: #ff7a18;
-  align-self: center;
+  align-items: center;
+  padding: 32px;
 }
 .flex-parent_attention .content {
   color: #000;
